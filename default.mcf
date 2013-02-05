@@ -1,0 +1,213 @@
+(dp0
+S'Pluck n Play range'
+p1
+V2 Octaves
+p2
+sS'Accompaniment outchanR'
+p3
+I00
+sS'Obloe1 eobvolch'
+p4
+I2
+sS'Obloe1 eobpitch'
+p5
+I1
+sS'BlueToot MidiChan'
+p6
+I6
+sS'Marimbar MidiChan'
+p7
+I5
+sS'Marimbar outvol'
+p8
+I50
+sS'Sway n Play range'
+p9
+V2 Octaves
+p10
+sS'Accompaniment partcb'
+p11
+I01
+sS'Obloe1 range'
+p12
+V2 Octaves
+p13
+sS'Pluck n Play eobvolch'
+p14
+I6
+sS'Sway n Play outvol'
+p15
+I50
+sS'BlueToot partcb'
+p16
+I00
+sS'Baronium outchanL'
+p17
+I01
+sS'Marimbar outchanL'
+p18
+I01
+sS'BlueToot range'
+p19
+V2 Octaves
+p20
+sS'Pluck n Play MidiChan'
+p21
+I4
+sS'Pluck n Play partcb'
+p22
+I00
+sS'Sway n Play outchanR'
+p23
+I00
+sS'Obloe1 outchanR'
+p24
+I01
+sS'Marimbar range'
+p25
+V2 Octaves
+p26
+sS'Baronium outvol'
+p27
+I50
+sS'Marimbar eobvolch'
+p28
+I6
+sS'Accompaniment outchanL'
+p29
+I01
+sS'Baronium range'
+p30
+V2 Octaves
+p31
+sS'Baronium eobpitch'
+p32
+I3
+sS'Obloe1 outchanL'
+p33
+I01
+sS'Obloe1 midinst'
+p34
+V65 Alto Sax
+p35
+sS'Sway n Play outchanL'
+p36
+I01
+sS'Sway n Play eobvolch'
+p37
+I8
+sS'Marimbar outchanR'
+p38
+I00
+sS'Baronium outchanR'
+p39
+I00
+sS'Sway n Play eobpitch'
+p40
+I7
+sS'Pluck n Play eobpitch'
+p41
+I5
+sS'Baronium MidiChan'
+p42
+I3
+sS'Marimbar eobpitch'
+p43
+I5
+sS'Marimbar midinst'
+p44
+V12 Marimba
+p45
+sS'Baronium lowend'
+p46
+VC3
+p47
+sS'Sway n Play midinst'
+p48
+V56 Trumpet
+p49
+sS'Baronium partcb'
+p50
+I00
+sS'Pluck n Play outvol'
+p51
+I50
+sS'Marimbar lowend'
+p52
+VC3
+p53
+sS'Obloe1 lowend'
+p54
+VC3
+p55
+sS'Baronium eobvolch'
+p56
+I4
+sS'Accompaniment outvol'
+p57
+I50
+sS'BlueToot outchanL'
+p58
+I01
+sS'Marimbar partcb'
+p59
+I00
+sS'Baronium midinst'
+p60
+V23 Tango Accordion
+p61
+sS'BlueToot blueCOM'
+p62
+I10
+sS'Pluck n Play outchanR'
+p63
+I00
+sS'Pluck n Play outchanL'
+p64
+I01
+sS'Sway n Play partcb'
+p65
+I00
+sS'Pluck n Play lowend'
+p66
+VC3
+p67
+sS'BlueToot midinst'
+p68
+V22 Harmonica
+p69
+sS'BlueToot lowend'
+p70
+VC3
+p71
+sS'Pluck n Play midinst'
+p72
+V32 Acoustic Bass
+p73
+sS'BlueToot outvol'
+p74
+I50
+sS'Accompaniment chordVoice'
+p75
+V4 Electric Piano 1
+p76
+sS'Obloe1 MidiChan'
+p77
+I1
+sS'Obloe1 partcb'
+p78
+I01
+sS'Obloe1 outvol'
+p79
+I100
+sS'BlueToot outchanR'
+p80
+I00
+sS'Sway n Play MidiChan'
+p81
+I2
+sS'Sway n Play lowend'
+p82
+VC3
+p83
+s.

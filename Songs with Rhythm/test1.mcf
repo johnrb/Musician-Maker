@@ -1,0 +1,150 @@
+(dp0
+S'Accompaniment outchanR'
+p1
+I00
+sS'ANo range'
+p2
+V2 Octaves
+p3
+sS'ANo lowend'
+p4
+VC3
+p5
+sS'Obloe outvol'
+p6
+I50
+sS'ANo outchanR'
+p7
+I00
+sS'Accompaniment partcb'
+p8
+I01
+sS'Obloe eobpitch'
+p9
+I0
+sS'ANo2 lowend'
+p10
+VC3
+p11
+sS'Accompaniment outchanL'
+p12
+I01
+sS'Obloe lowend'
+p13
+VC3
+p14
+sS'ANo2 midinst'
+p15
+V0 Acoustic Grand Piano
+p16
+sS'Accompaniment midinst'
+p17
+V0 Acoustic Grand Piano
+p18
+sS'Obloe outchanL'
+p19
+I01
+sS'ANo2 partcb'
+p20
+I00
+sS'Obloe outchanR'
+p21
+I00
+sS'ANo outvol'
+p22
+I100
+sS'Fifth partcb'
+p23
+I00
+sS'ANo outchanL'
+p24
+I01
+sS'Fifth outchanL'
+p25
+I01
+sS'Obloe eobvolch'
+p26
+I0
+sS'Fifth outvol'
+p27
+I50
+sS'ANo midinst'
+p28
+V0 Acoustic Grand Piano
+p29
+sS'Pluck eobpitch'
+p30
+I0
+sS'ANo2 range'
+p31
+V2 Octaves
+p32
+sS'Pluck lowend'
+p33
+VC3
+p34
+sS'ANo partcb'
+p35
+I00
+sS'ANo2 outchanL'
+p36
+I01
+sS'ANo2 outchanR'
+p37
+I00
+sS'Fifth range'
+p38
+V2 Octaves
+p39
+sS'Obloe range'
+p40
+V2 Octaves
+p41
+sS'Fifth lowend'
+p42
+VC3
+p43
+sS'Accompaniment outvol'
+p44
+I50
+sS'Pluck range'
+p45
+V2 Octaves
+p46
+sS'Pluck midinst'
+p47
+V0 Acoustic Grand Piano
+p48
+sS'Pluck outchanR'
+p49
+I00
+sS'Pluck partcb'
+p50
+I01
+sS'ANo2 outvol'
+p51
+I50
+sS'Pluck outvol'
+p52
+I100
+sS'Fifth midinst'
+p53
+V0 Acoustic Grand Piano
+p54
+sS'Fifth outchanR'
+p55
+I00
+sS'Obloe partcb'
+p56
+I01
+sS'Pluck outchanL'
+p57
+I01
+sS'Obloe midinst'
+p58
+V0 Acoustic Grand Piano
+p59
+sS'Pluck eobvolch'
+p60
+I0
+s.
