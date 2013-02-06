@@ -1,6 +1,7 @@
 # Musician Maker  
+# Original version written by Ben Toews, Zach Yordy in 2010
+# Additions by John Miller in 2011
 # Rewritten by John Buschert Feb 2012
-# from earlier versions written by Ben Toews, Zach Yordy and later John Miller
 #
 # Written for Python 2.6
 # Needs pygame and wxpython  both for python 2.6
