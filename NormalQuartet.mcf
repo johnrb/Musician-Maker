@@ -23,7 +23,7 @@ p8
 I50
 sS'Marimbar MidiChan'
 p9
-I3
+I0
 sS'Marimbar outvol'
 p10
 I50
@@ -58,7 +58,7 @@ V2 Octaves
 p21
 sS'Pluck n Play MidiChan'
 p22
-I4
+I0
 sS'Pluck n Play partcb'
 p23
 I01
@@ -74,7 +74,7 @@ V2 Octaves
 p27
 sS'Sway n Play MidiChan'
 p28
-I5
+I0
 sS'Sway n Play range'
 p29
 V2 Octaves
@@ -116,7 +116,7 @@ p43
 I5
 sS'Baronium MidiChan'
 p44
-I2
+I0
 sS'Marimbar eobpitch'
 p45
 I3
@@ -151,7 +151,7 @@ p58
 I2
 sS'Accompaniment outvol'
 p59
-I30
+I50
 sS'BlueToot outchanL'
 p60
 I01
