@@ -874,6 +874,7 @@ class Obloe(Instrument, InPart):
         return rawnote, volume
     
     def playNote(self,note,rawnote,volume):
+        global ModuleOn
         self.trace = "PlayNote"
         if volume != self.lastvolume or note != self.lastnote:
             if self.lastvolume == 0 and volume != 0:              # New note starting from nothing
@@ -905,6 +906,9 @@ class Obloe(Instrument, InPart):
                 self.lastvolume = volume
             else:                                                           
                 pass
+            if ModuleOn == True:
+                mod1.pan3.vbox_right.box1.vol.SetText(volume)
+                
     
 # Sway class -- specifics for Sway n Play, based on Obloe
 class Sway(Obloe):
@@ -1192,7 +1196,9 @@ class Virtual:
      
     @staticmethod   # has no self parameter
     def createVirtInst():  # Create a virtual Instrument for use without the Eobody
-        win2 = wx.Frame(None, -1, "Virtual obloe", size=(360,300))
+        screenWidth = wx.GetDisplaySize().width
+        screenHeight = wx.GetDisplaySize().height
+        win2 = wx.Frame(None, -1, "Virtual obloe", size=(int(screenWidth/4),int(screenHeight/3)),pos=(int(screenWidth-500),50))
         pan2 = wx.Panel(win2)
         wx.StaticText(pan2, -1, "Pitch Eobody  Vol", pos=(40,20))
         
@@ -1252,7 +1258,11 @@ COL_ENABLED = (150,180,255)
 
 # Set up the main window
 myapp = wx.App(redirect=0)       # 0 = don't redirect errors, use stdout
-win = wx.Frame(None, -1, "Musician Maker Main Panel", size=(800,640))
+
+screenWidth = wx.GetDisplaySize().width
+screenHeight = wx.GetDisplaySize().height
+
+win = wx.Frame(None, -1, "Musician Maker Main Panel", size=(800,640),pos=(50,50))
 pan = wx.Panel(win)
 pan.SetBackgroundColour(COL_BACK)
 
@@ -1364,10 +1374,13 @@ accomp = Accomp("Accompaniment")
 
 sway1 = Sway("Sway n Play","EOB")
 obloe1 = Obloe("Obloe1","EOB")
-baron1 = Baron("Baronium","EOB")
-pluck1 = Pluck("Pluck n Play","EOB")
-marim1 = Marim("Marimbar","EOB")
-blue1 = Blue("BlueToot","BT")
+# baron1 = Baron("Baronium","EOB")
+# pluck1 = Pluck("Pluck n Play","EOB")
+# marim1 = Marim("Marimbar","EOB")
+# blue1 = Blue("BlueToot","BT")
+
+from MM_module import Module
+mod1 = Module(obloe1,"Obloe")
 
 byteReader = ByteReader()
 
