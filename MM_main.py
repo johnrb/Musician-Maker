@@ -874,7 +874,6 @@ class Obloe(Instrument, InPart):
         return rawnote, volume
     
     def playNote(self,note,rawnote,volume):
-        global ModuleOn
         self.trace = "PlayNote"
         if volume != self.lastvolume or note != self.lastnote:
             if self.lastvolume == 0 and volume != 0:              # New note starting from nothing
@@ -906,8 +905,6 @@ class Obloe(Instrument, InPart):
                 self.lastvolume = volume
             else:                                                           
                 pass
-            if ModuleOn == True:
-                mod1.pan3.vbox_right.box1.vol.SetText(volume)
                 
     
 # Sway class -- specifics for Sway n Play, based on Obloe
@@ -1373,14 +1370,14 @@ if eobody == False:
 accomp = Accomp("Accompaniment")
 
 sway1 = Sway("Sway n Play","EOB")
-obloe1 = Obloe("Obloe1","EOB")
-# baron1 = Baron("Baronium","EOB")
+# obloe1 = Obloe("Obloe1","EOB")
+baron1 = Baron("Baronium","EOB")
 # pluck1 = Pluck("Pluck n Play","EOB")
-# marim1 = Marim("Marimbar","EOB")
+marim1 = Marim("Marimbar","EOB")
 # blue1 = Blue("BlueToot","BT")
-
-from MM_module import Module
-mod1 = Module(obloe1,"Obloe")
+# 
+# from MM_module import Module
+# mod1 = Module(obloe1,"Obloe")
 
 byteReader = ByteReader()
 
