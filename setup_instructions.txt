@@ -1,0 +1,14 @@
+Musician Maker Setup
+
+1. Install Eclipse version 4.2.2 (Luna) (32-bit version)
+2. Install Python 2.7.11 (32-bit version)
+3. Install PyGame 1.9.1 for Python 2.7 (32-bit version)
+4. Install wxPython 3.0 for Python 2.7 (32-bit version)
+5. Follow these instructions through step #22:
+https://www.ics.uci.edu/~pattis/common/handouts/pythoneclipsejava/eclipsepython.html
+These instructions will guide you through the process of adding PyDev to Eclipse
+Note that in step 16, you will type “Python27” instead of “Python34”.  Thus, you will also navigate to your Python2.7 install file, which should be at C:\Python27\python.exe
+6. Install GitHub
+7. Open Eclipse
+8. Go to File > New > Source Folder
+9. After creating this Source Folder, go to GitHub, clone the Musician Maker repository into your computer’s local filesystem, choosing the source folder you just created.
