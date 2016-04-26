@@ -258,6 +258,9 @@ class Part:
         # Create trace text
         self.trace = wx.StaticText(self.partpan, -1, "", pos=(10,40))
         
+#         modToggle = wx.ToggleButton(self.partpan, label='Show Mod', pos=(5,25), size=(70,20))
+#         modToggle.Bind(wx.EVT_TOGGLEBUTTON,showMod)
+        
          # if Part.tracing: self.trace.SetLabel("")
         
         
@@ -1370,14 +1373,15 @@ if eobody == False:
 accomp = Accomp("Accompaniment")
 
 sway1 = Sway("Sway n Play","EOB")
-# obloe1 = Obloe("Obloe1","EOB")
+obloe1 = Obloe("Obloe1","EOB")
 baron1 = Baron("Baronium","EOB")
-# pluck1 = Pluck("Pluck n Play","EOB")
+pluck1 = Pluck("Pluck n Play","EOB")
 marim1 = Marim("Marimbar","EOB")
-# blue1 = Blue("BlueToot","BT")
-# 
-# from MM_module import Module
+blue1 = Blue("BlueToot","BT")
+ 
+from MM_module import Module
 # mod1 = Module(obloe1,"Obloe")
+mod2 = Module(baron1,"Baronium",midout,pan)
 
 byteReader = ByteReader()
 
